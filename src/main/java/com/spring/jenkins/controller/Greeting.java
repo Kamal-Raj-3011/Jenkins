@@ -10,5 +10,10 @@ public class Greeting {
     public String Greet() {
         return "Welcome to Jenkins CI/CD pipeline demo!";
     }
+
+    @GetMapping("/user")
+    public String GreetUser() {
+        return "Welcome Raj Kamal to Jenkins CI/CD pipeline demo!";
+    }
     
 }
